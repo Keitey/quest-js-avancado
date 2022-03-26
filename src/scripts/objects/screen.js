@@ -41,10 +41,10 @@ const screen = {
                                 <li>
                                 <a href= "${repo.html_url}" target= "_blank">${repo.name}
                                 <ul>
-                                    <li>🍴${repo.forks_count}</li>
-                                    <li>⭐${repo.stargazers_count}</li>
-                                    <li>👀${repo.watchers_count}</li>
-                                    <li>💻${repo.language}</li>
+                                    <li class="repositories-details">🍴${repo.forks_count}</li>
+                                    <li class="repositories-details">⭐${repo.stargazers_count}</li>
+                                    <li class="repositories-details">👀${repo.watchers_count}</li>
+                                    <li class="repositories-details">💻${repo.language}</li>
                                 </ul>
                                 </a>
                                 </li>`)

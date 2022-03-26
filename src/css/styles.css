@@ -170,13 +170,22 @@ main {
   justify-content: center;
 }
 
+.repositories-details{
+  background-color: #8953e0;
+  border-radius: 3px;
+  margin: 3px;
+  padding: 2px;
+}
+
 .container .profile-data .repositories ul li a{
   padding: 20px;
   border: 1px solid grey;  
-  margin: 20px;
+  margin: 10px;
   display: block;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
+  font-weight: bold;
+  text-align: start;
 }
 
 .container .profile-data .repositories ul li a:hover{
@@ -187,6 +196,11 @@ main {
 .container .profile-data .activities{
   width: 100%;
 }
+
+.container .profile-data .activities ul{
+  text-align: start;
+}
+
 
 .container .profile-data.hide{
   display: none;
